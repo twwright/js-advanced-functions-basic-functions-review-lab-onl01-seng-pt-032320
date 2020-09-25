@@ -21,7 +21,7 @@ const Calculator = {
 
 function actionApplyer(int, arr){
   if (arr.length === 0) return int;
-  for (const val in arr) {
+  for (const val of arr) {
     arr[val];
   }
 }
