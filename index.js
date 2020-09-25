@@ -28,8 +28,12 @@ const Calculator = {
   let divide = function(a, b) {
     return a / b;
   }
- 
-  let add = function(a, b) {
-    return a + b;
+}
+
+function actionApplier(int, arr){
+  if (arr.length === 0) return int;
+  for (const val in arr) {
+    arr[val];
   }
+}
  
