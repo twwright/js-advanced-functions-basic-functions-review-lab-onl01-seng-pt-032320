@@ -19,7 +19,7 @@ const Calculator = {
   divide: function(a, b) { return a / b; }
 }
 
-function actionApplier(int, arr){
+function actionApplyer(int, arr){
   if (arr.length === 0) return int;
   for (const val in arr) {
     arr[val];
