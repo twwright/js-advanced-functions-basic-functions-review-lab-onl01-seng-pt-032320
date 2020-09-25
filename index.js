@@ -23,7 +23,7 @@ function actionApplyer(int, arr){
   if (arr.length === 0) return int;
   let result = int;
   for (const action of arr) {
-    result = arr[action](result);
+    result = action(result);
   }
   return result;
 }
