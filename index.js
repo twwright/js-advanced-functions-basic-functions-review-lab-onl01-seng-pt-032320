@@ -21,18 +21,10 @@ const Calculator = {
 
 function actionApplyer(int, arr){
   if (arr.length === 0) return int;
-  for (const val of arr) {
-    arr[val];
+  let result = int;
+  for (const action of arr) {
+    result = arr[action](result);
   }
+  return result;
 }
  
- 
- let actionApplyer = function(start, ray) {
-  let a = start
-
-  for (let i = 0; i < ray.length; i++ ){
-    a = ray[i](a)
-  }
-
-  return a
-}
