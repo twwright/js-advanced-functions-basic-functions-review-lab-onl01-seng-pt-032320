@@ -26,3 +26,13 @@ function actionApplyer(int, arr){
   }
 }
  
+ 
+ let actionApplyer = function(start, ray) {
+  let a = start
+
+  for (let i = 0; i < ray.length; i++ ){
+    a = ray[i](a)
+  }
+
+  return a
+}
