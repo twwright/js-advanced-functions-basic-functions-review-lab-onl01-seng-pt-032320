@@ -11,3 +11,20 @@ function wrapAdjective(flair = "*") {
     return `You are ${flair}${adj}${flair}!`
   }
 }
+
+const Calculator = {
+  let add = function(a, b) {
+    return a + b;
+  }
+  
+  let add = function(a, b) {
+    return a + b;
+    
+  }let add = function(a, b) {
+    return a + b;
+    
+  }let add = function(a, b) {
+    return a + b;
+  }let add = function(a, b) {
+    return a + b;
+  }
