@@ -27,4 +27,5 @@ function actionApplyer(int, arr){
   }
   return result;
 }
+
  
