@@ -15,17 +15,17 @@ function wrapAdjective(flair = "*") {
 const Calculator = {
   add: function(a, b) {
     return a + b;
-  }
+  };
  
-  let subtract = function(a, b) {
+  subtract: function(a, b) {
     return a - b;
-  }
+  };
  
-  let multiple = function(a, b) {
+  multiply: function(a, b) {
     return a * b;
   }
  
-  let divide = function(a, b) {
+  divide: function(a, b) {
     return a / b;
   }
 }
