@@ -26,7 +26,7 @@ let razzleExpression = function() {
 - Chrome symbolizes *frozen* work with a special `f` character
 - `razzleExpression` is a pointer to a stored block of work
 - function expressions are not hoisted
-- 
+
 
 ## Weird Trick with Function Scopes
 - example:
@@ -49,3 +49,6 @@ storeFunction("student", "JavaScript");
 //=> "Hello, student! It's a fine day to learn JavaScript!"
 ```
 
+## Closure
+- the inner function of that weird trick with scopes is called a *closure*
+- a *closure* encloses the function-level execution context of its parent; like a backpack
