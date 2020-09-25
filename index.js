@@ -13,19 +13,19 @@ function wrapAdjective(flair = "*") {
 }
 
 const Calculator = {
-  add(a, b) {
-    return (a + b);
+  add: function(a, b) {
+    return a + b;
   }
  
-  subtract(a, b) {
+  subtract: function(a, b) {
     return a - b;
   }
  
-  multiply(a, b) {
+  multiply: function(a, b) {
     return a * b;
   }
  
-  divide(a, b) {
+  divide: function(a, b) {
     return a / b;
   }
 }
